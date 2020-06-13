@@ -1,0 +1,90 @@
+header {
+    width: 960px;
+    height: 100px;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    width: 400px;
+    height: 100px;
+    background-color: #c9e0e9;
+    float: left;
+}
+
+nav {
+    width: 560px;
+    height: 100px;
+    background-color: #135487;
+    float: left;
+}
+
+#banner {
+    width: 960px;
+    height: 150px;
+    background-color: #D5D8DD;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#grupo1 {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#art1 {
+    width: 550px;
+    height: 300px;
+    background-color: #F8F8F8;
+    float: left;
+}
+
+#art2 {
+    width: 410px;
+    height: 300px;
+    background-color: #EAECEF;
+    float: left;
+}
+
+#grupo2 {
+    clear: both;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#sec1 {
+    width: 480px;
+    height: 400px;
+    background-color: #9CDADF;
+    float: left;
+}
+
+#sec2 {
+    width: 480px;
+    height: 400px;
+    background-color: #85B0D5;
+    float: left;
+}
+
+footer {
+    width: 960px;
+    height: 250px;
+    background-color: #2A4353;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    clear: both;
+}
+
+#copyright {
+    width: 960px;
+    height: 40px;
+    border-top: 1px dashed gray;
+    position: absolute;
+    bottom: 0;
+}
