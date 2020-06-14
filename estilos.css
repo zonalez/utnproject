@@ -74,6 +74,7 @@ nav ul li a {
     text-decoration: none;
     padding: 0 30px;
     font-size: 14px;
+    border-radius: 20px;
 }
 
 nav ul li a:hover {
@@ -135,6 +136,60 @@ nav ul li a:hover {
     background-color: #85B0D5;
     float: left;
 }
+
+#txt_contacto {
+    width: 560px;
+    height: 400px;
+    background-color: #F8F8F8;
+    float: left;
+    padding: 20px;
+}
+
+#txt_contacto h2 {
+    color: #5590CC;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+#txt_contacto input {
+    padding: 10px;
+    width: 350px;
+    background-color:#F8F8F8;
+    border: 0;
+    border-bottom: 2px solid #C5C6C6;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#txt_contacto textarea {
+    padding: 10px;
+    width: 350px;
+    background-color:#F8F8F8;
+    border: 0;
+    border-bottom: 2px solid #C5C6C6;
+    display: block;
+    margin-bottom: 30px;
+}
+
+#txt_contacto input[type=submit] {
+    border: 2px solid #C5C6C6;
+    border-radius: 10px;
+    background-color: #EAECEF;
+}
+
+#img_contacto {
+    width: 400px;
+    height: 400px;
+    background-color: #EAECEF;
+    background-image: url(imagenes/contacto.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px;
+    opacity: 0.9;
+    float: left;
+}
+
+
 
 footer {
     width: 960px;
