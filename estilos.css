@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana,  Tahoma, sans-serif;
+    background-image: url(imagenes/pattern2.png);
+}
+
 header {
     width: 960px;
     height: 100px;
@@ -13,11 +24,61 @@ header {
     float: left;
 }
 
+#imglogo {
+    width: 67px;
+    height: 100px;
+    margin-left: 20px;
+    background-image: url(imagenes/logo.png);
+    background-size: cover;
+    /* border: 1px solid green; */
+    float: left;
+}
+
+#txtlogo {
+    width: 300px;
+    height: 100px;
+    /* border: 1px solid red; */
+    float: left;
+}
+
+#txtlogo {
+    font-size: 18px;
+    margin: 0;
+    color: #5590CC;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+}
+
 nav {
     width: 560px;
     height: 100px;
     background-color: #135487;
     float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    line-height: 100px;
+    font-weight: bold;
+    color: #5590CC;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    background-color: #093456;
+    color: #FFF;
 }
 
 #banner {
@@ -26,6 +87,10 @@ nav {
     background-color: #D5D8DD;
     margin-left: auto;
     margin-right: auto;
+}
+
+#banner img {
+    opacity: 0.5;
 }
 
 #grupo1 {
