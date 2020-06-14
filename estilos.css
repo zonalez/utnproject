@@ -126,8 +126,20 @@ nav ul li a:hover {
 #sec1 {
     width: 480px;
     height: 400px;
-    background-color: #9CDADF;
+    /* background-color: #9CDADF; */
+    background: -webkit-gradient(linear, 50% 50%, 50% 0%, from(#85B0D5), to(#9CDADF));
     float: left;
+    padding: 20px;
+}
+
+#sec1 ul, #sec2 ul {
+    padding: 20px;
+}
+
+#sec1 ul li, #sec2 ul li {
+    padding-bottom: 15px;
+    color: #2A4353;
+    font-size: 14px;
 }
 
 #sec2 {
@@ -135,6 +147,7 @@ nav ul li a:hover {
     height: 400px;
     background-color: #85B0D5;
     float: left;
+    padding: 20px;
 }
 
 #txt_contacto {
@@ -145,7 +158,7 @@ nav ul li a:hover {
     padding: 20px;
 }
 
-#txt_contacto h2 {
+h2 {
     color: #5590CC;
     font-size: 22px;
     margin-bottom: 20px;
