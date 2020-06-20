@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@-webkit-keyframes 'a_aparece_texto' {
+    from {
+        font-size: 0;
+    }
+
+    to {
+        font-size: 22px;
+    }
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +18,7 @@
 }
 
 body {
-    font-family: Verdana,  Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-image: url(imagenes/pattern2.png);
 }
 
@@ -39,6 +52,7 @@ header {
     height: 100px;
     /* border: 1px solid red; */
     float: left;
+    text-shadow: -2px 5px 5px rgba(150, 150, 150, 0.7);
 }
 
 #txtlogo {
@@ -156,6 +170,26 @@ nav ul li a:hover {
     background-color: #F8F8F8;
     float: left;
     padding: 20px;
+}
+
+#txt_servicios {
+    width: 960px;
+    height: 400px;
+    background-color: #F8F8F8;
+    float: left;
+    padding: 20px;
+}
+
+#txt_servicios p {
+    padding: 10px;
+    text-align: justify;
+}
+
+
+.aparece_texto {
+    animation-name: a_aparece_texto;
+    animation-duration: 0.5s;
+    animation-iteration-count: initial;
 }
 
 h2 {
