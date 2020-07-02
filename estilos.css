@@ -319,13 +319,7 @@ footer {
         width: 580px;
         height: 500px;
     }   
-/* 
-    h2 {
-        color: #5590CC;
-        font-size: 22px;
-        margin-bottom: 20px;
-    }
-     */
+
     #txt_contacto input {
         padding: 20px;
         width: 480px;
@@ -439,27 +433,17 @@ footer {
     
     #txt_servicios {
         width: 100%;
+        height: auto;
         
     }
 
 
-    
-
-    
     #txt_contacto input {
-    
         width: 100%;
-
     }
     
     #txt_contacto textarea {
-        padding: 10px;
-        width: 350px;
-        background-color:#F8F8F8;
-        border: 0;
-        border-bottom: 2px solid #C5C6C6;
-        display: block;
-        margin-bottom: 30px;
+        width: 100%;
     }
     
     #txt_contacto input[type=submit] {
@@ -469,35 +453,17 @@ footer {
     }
     
     #img_contacto {
-        width: 400px;
-        height: 400px;
-        background-color: #EAECEF;
-        background-image: url(imagenes/contacto.png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 250px;
-        opacity: 0.9;
-        float: left;
+        display: none;
     }
     
     
     
     footer {
-        width: 960px;
-        height: 250px;
-        background-color: #2A4353;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-        clear: both;
+        width: 100%;
     }
     
     #copyright {
-        width: 960px;
-        height: 40px;
-        border-top: 1px dashed gray;
-        position: absolute;
-        bottom: 0;
+        width: 100%;
     }
 
 } /* FIN DE MEDIA MAX 599PX*/
