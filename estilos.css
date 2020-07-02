@@ -381,13 +381,15 @@ footer {
     
     nav ul li {
         display: block;
+        height: 50px;
         padding-top: 0;
         padding-bottom: 0;
     }
     
     nav ul li a {
         display: block;
-        height: auto;
+        height: 50px;
+        line-height: 50px;
         padding-top: 0;
         padding-bottom: 0;
 
