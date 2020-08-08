@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('iconos.css');
 
 @-webkit-keyframes 'a_aparece_texto' {
     from {
@@ -248,12 +249,40 @@ footer {
     clear: both;
 }
 
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    margin-left:30px;
+    margin-top:10px;
+    padding-top: 20px;
+}
+
+footer ul li a {
+    color: #5590CC;
+    text-decoration: none;
+    padding-left: 15px;
+}
+
+footer ul li span {
+    font-size: 24px;
+}
+
+
 #copyright {
     width: 960px;
     height: 40px;
     border-top: 1px dashed gray;
     position: absolute;
     bottom: 0;
+}
+
+#copyright p {
+    font-size: 14px;
+    color:gray;
+    text-align: center;
+    line-height: 40px;
 }
 
 @media all and (min-width: 600px) and (max-width: 1023px) {
