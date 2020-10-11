@@ -65,6 +65,14 @@ header {
     line-height: 100px;
 }
 
+#enfasis {
+    font-size: 60px;
+}
+
+#enfasis_nombre {
+    color: #135487;
+}
+
 nav {
     width: 560px;
     height: 100px;
@@ -128,6 +136,32 @@ nav ul li a:hover {
     height: 300px;
     background-color: #EAECEF;
     float: left;
+    /* border: 1px solid blue; */
+    margin: 0;
+    padding: 0;
+}
+
+#flexart2 {
+    display: flex;
+    justify-content: center;
+    animation-name: circuito;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+}
+
+@keyframes circuito {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(3600deg);
+
+    }
+}
+
+#art2 img {
+    width: 70%;
 }
 
 #grupo2 {
@@ -175,7 +209,7 @@ nav ul li a:hover {
 
 #txt_servicios {
     width: 960px;
-    height: 400px;
+    height: 800px;
     background-color: #F8F8F8;
     float: left;
     padding: 20px;
@@ -184,8 +218,19 @@ nav ul li a:hover {
 #txt_servicios p {
     padding: 10px;
     text-align: justify;
+    margin: 20px 0;
 }
 
+#videotech {
+    width: 500px;
+
+}
+
+#videoflex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
 .aparece_texto {
     animation-name: a_aparece_texto;
@@ -235,6 +280,26 @@ h2 {
     background-size: 250px;
     opacity: 0.9;
     float: left;
+}
+
+#botonera_video {
+    width: 500px;
+    height: 40px;
+    background-color: #85B0D5;
+    float: none;
+}
+
+
+#botonera_video ul li a {
+    display: inline-block;
+    line-height: 40px;
+    font-weight: bold;
+    /* color: #5590CC; */
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 20px;
+    border-radius: 20px;
 }
 
 
@@ -326,6 +391,10 @@ footer ul li span {
         width: 580px;
     }
     
+    #art2 img {
+        width: 52%;
+    }
+
     #grupo2 {
         width: 580px;
     }
@@ -346,7 +415,7 @@ footer ul li span {
     
     #txt_servicios {
         width: 580px;
-        height: 500px;
+        height: 1000px;
     }   
 
     #txt_contacto input {
@@ -433,7 +502,8 @@ footer ul li span {
         width: 100%;
     
     }
-    
+
+
     #art1 {
         width: 100%;
     
@@ -441,6 +511,7 @@ footer ul li span {
     
     #art2 {
         width:100%;
+        display: none;
     }
     
     #grupo2 {
@@ -468,6 +539,9 @@ footer ul li span {
         
     }
 
+    #videotech, #botonera_video {
+        display:none;
+    }
 
     #txt_contacto input {
         width: 100%;
